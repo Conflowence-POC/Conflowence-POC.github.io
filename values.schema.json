@@ -1,34 +1,35 @@
 {
-    "$schema": "http://json-schema.org/schema#",
-    "type": "object",
+    "$schema": "https://json-schema.org/draft-07/schema#",
     "properties": {
-        "image": {
-            "type": "object",
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "port": {
-                    "type": "integer"
-                }
-            }
+      "image": {
+        "description": "Container Image",
+        "properties": {
+          "repo": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          }
         },
-        "replicaCount": {
-            "type": "integer"
-        },
-        "service": {
-            "type": "object",
-            "properties": {
-                "nodePort": {
-                    "type": "integer"
-                },
-                "port": {
-                    "type": "integer"
-                },
-                "type": {
-                    "type": "string"
-                }
-            }
-        }
-    }
-}
+        "type": "object"
+      },
+      "name": {
+        "description": "Service name",
+        "type": "string"
+      },
+      "port": {
+        "description": "Port",
+        "minimum": 0,
+        "type": "integer"
+      },
+      "protocol": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "protocol",
+      "port"
+    ],
+    "title": "Values",
+    "type": "object"
+  }

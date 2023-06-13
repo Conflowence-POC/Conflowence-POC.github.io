@@ -3,12 +3,12 @@ entries:
   react-sample-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-13T15:26:23.861613102-05:00"
+    created: "2023-06-13T15:44:27.791572385-05:00"
     description: A Helm chart for Kubernetes
-    digest: eccee472da8881507418ff7b7dabb8fcfe35ee6a2c5de7a52b968d09266c4763
+    digest: ee7197d38bd67f66d5c40f756b64c3ab2fd202cbeb6935610ee8626938d70dbe
     name: react-sample-chart
     type: application
     urls:
     - https://harrystarlord.github.io/react-sample-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-13T15:26:23.861078714-05:00"
+generated: "2023-06-13T15:44:27.791176204-05:00"
