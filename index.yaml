@@ -9,6 +9,6 @@ entries:
     name: react-sample-chart
     type: application
     urls:
-    - https://harrystarlord.github.io/sample-react-app/react-sample-chart-0.1.0.tgz
+    - https://harrystarlord.github.io/react-sample-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-06-13T14:41:57.935905538-05:00"
